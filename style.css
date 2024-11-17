@@ -1,0 +1,464 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(226, 167, 191);
+    height: 100px;
+    font-size: 20px;
+    
+}
+#courses{
+    padding-top: 2px;
+    padding-bottom: 6px;
+    background-color: aqua;
+}
+.courses select{
+    height:30px;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+#placeholder{
+    
+    height: 30px;
+    
+    
+}
+.signin{
+    margin-right: 20px;
+}
+.border{
+    border: 2px solid transparent;
+
+}
+.border :hover{
+    border: 2px solid black;
+
+    
+}
+.taglinecontainer{
+    margin-top: 50px;
+   /* margin-left: 20px;
+    margin-right: 20px;*/
+    background-color: rgb(235, 189, 208);
+    height: 450px;
+}
+
+.maintagline{
+    margin-top: 40px;
+    margin-left: 60px;
+    width: 450px;
+    height: 250px;
+    
+    font-size: 50px ;
+    position: relative;
+    top: 60px;
+    font-weight: 100;
+    color: white;
+}
+#linecolor{
+    color: red;
+}
+.joinus{
+    position: relative;
+    top: 40px;
+    left: 70px;
+    height: 30px;
+    
+}
+#but{
+    height: 50px;
+    width: 250px;
+    font-size: 26px;
+    border: 2px solid transparent;
+    background-color: red;
+    color: white;
+    border-radius:10px;
+}
+#but:hover{
+    border: 4px solid black;
+    
+}
+.anyimg{
+    display: flex;
+    
+    justify-content: center;
+    position: absolute;
+    top: 200px;
+    left: 1000px;
+    background-color:blue ;
+    height: 200px;
+    width: 200px;
+
+}
+
+.vertical{
+    border-left: 3px solid rgb(0, 0, 0);
+    height: 80px;
+    position: relative;
+    top: 65px;
+}
+
+.block4{
+    background-color: rgb(255, 255, 255);
+    height: 260px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 70px;
+    margin-right: 70px;
+    position: relative;
+    top: -70px;
+     border-radius: 20px;
+     box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.08);
+
+}
+.offline{
+    position: relative;
+    top: 40px;
+    
+    height: 170px;
+    width: 160px;
+    
+}
+#img1{
+    font-size: 80px;
+    padding-bottom: 20px;
+    padding-left: 35px;
+
+}
+.offlineclass{
+    font-size: 26px;
+    color: black;
+    font-weight: 100;
+}
+.pyq{
+    position: relative;
+    top: 40px;
+    
+    height: 170px;
+    width: 160px;
+}
+.pyqimg i{
+    font-size: 80px;
+    padding-bottom: 20px;
+    padding-left: 43px;
+
+}
+.pyq2{
+    font-size: 26px;
+    color: black;
+    font-weight: 100;
+    padding-left: 40px;
+}
+.doubt{
+    position: relative;
+    top: 40px;
+    
+    height: 170px;
+    width: 160px;
+}
+.doubtimg{
+    font-size: 80px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+.doubt2{
+    font-size: 26px;
+    color: black;
+    font-weight: 100;
+    
+}
+.popularcoursecontainer{
+    background-color: rgb(255, 255, 255);
+    height: 900px;
+}
+
+.popularcourse{
+    padding-top: 40px;
+    padding-bottom: 60px;
+    font-size: 28px;
+    text-align: center;
+}
+/*------------------------------------upcourse-------------*/
+.upcourse3{
+    display: flex;
+    justify-content: space-evenly;
+}
+/*----------------------------------------------academic----------------------------*/
+.academic{
+    width: 270px;
+    height: 300px;
+    align-content: center;
+    border: 2px solid rgb(36, 33, 33);
+}
+.academicimg{
+    font-size: 80px;
+    text-align: center;
+}
+.academic3{
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 28px;
+    text-align: center;
+    border: 3px solid transparent ;
+
+    
+}
+.academic2:hover{
+    border: 3px solid black;
+    background-color: rgb(245, 238, 238);
+}
+.academic3 a{
+    color: black;
+    text-decoration: none;
+}
+/*--------------------------------------ENTRANCE EXAM------------------------------*/
+.entrance{
+    height: 300px;
+    align-content: center;
+
+    width: 270px;
+    border: 2px solid rgb(36, 33, 33);
+}
+.entranceimg{
+    font-size: 80px;
+    text-align: center;
+   
+}
+.entrance3{
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 28px;
+    text-align: center;
+    border: 3px solid transparent ;
+}
+.entrance2:hover{
+    border: 3px solid black;
+    background-color: rgb(245, 238, 238);
+}
+.entrance3 a{
+    color: black;
+    text-decoration: none;
+}
+/*--------------------------------------COMPETITIVE EXAMS-------------------------------*/
+.competitive{
+    height: 300px;
+    align-content: center;
+    
+    width: 270px;
+    border: 2px solid rgb(36, 33, 33);
+}
+.compimg{
+    font-size: 80px;
+    text-align: center;
+}
+.comp3{
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 28px;
+    text-align: center;
+    border: 3px solid transparent ;
+}
+.comp2:hover{
+    border: 3px solid black;
+    background-color: rgb(245, 238, 238);
+}
+.comp3 a{
+    color: black;
+    text-decoration: none;
+}
+/*--------------------------------------DOWN COURSE 3----------------------------------------*/
+
+.downcourse3{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.computercourses{
+    height: 300px;
+    align-content: center;
+    
+    width: 270px;
+    border: 2px solid rgb(36, 33, 33);
+}
+.computerimg{
+    font-size: 80px;
+    text-align: center;
+}
+.computer3{
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 28px;
+    text-align: center;
+    border: 3px solid transparent ;
+}
+.computer2:hover{
+    border: 3px solid black;
+    background-color:rgb(245, 238, 238);
+}
+.computer3 a{
+    color: black;
+    text-decoration: none;
+}
+/*------------------------------------------------DIGITAL MARKETING------------------------------*/
+
+.digital{
+    height: 300px;
+    align-content: center;
+
+    width: 270px;
+    border: 2px solid rgb(36, 33, 33);
+}
+.digitalimg{
+    font-size: 80px;
+    text-align: center;
+}
+.digital3{
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 28px;
+    text-align: center;
+    border: 3px solid transparent ;
+}
+.digital2:hover{
+    border: 3px solid black;
+    background-color: rgb(245, 238, 238);
+}
+.digital3 a{
+    color: black;
+    text-decoration: none;
+}
+/*----------------------------------------JOURNALISM IN MASS COMMUNICATION-----------------*/
+
+.journalism{
+    height: 300px;
+    align-content: center;
+   
+    width: 270px;
+    border: 2px solid rgb(36, 33, 33);
+}
+
+.jourimg{
+    font-size: 80px;
+    text-align: center;
+}
+.jour3{
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 28px;
+    text-align: center;
+    border: 3px solid transparent ;
+}
+.jour2:hover{
+    border: 3px solid black;
+    background-color: rgb(245, 238, 238);
+}
+.jour3 a{
+    color: black;
+    text-decoration: none;
+}
+/*--------------------------------JOIN lc TODAY---------------------*/
+
+.jointodaycontainer{
+    margin-top: 50px;
+    height: 500px;
+    background-color: rgb(252, 249, 255);
+    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.08);
+}
+
+
+.joinlc{
+    text-align: center;
+    position: relative;
+    top: 30px;
+    margin-bottom: 100px;
+    font-size: 28px;
+}
+.joinas{
+    
+    height: 400px;
+    width: 500px;
+    text-align: center;
+    margin-left: 520px;
+}
+.learners button{
+    border-radius: 10px;
+    height: 60px; 
+    width: 400px;
+    font-size: 24px;
+    margin-bottom: 10px;
+    background-color: red;
+    border: 3px solid transparent;
+    color: white;
+    
+}
+.teachers button{
+    border-radius: 10px;
+    height: 60px; 
+    width: 400px;
+    font-size: 24px;
+    margin-bottom: 10px;
+    background-color: red;
+    border: 3px solid transparent;
+    color: white;
+    
+}
+.parents button{
+    border-radius: 10px;
+    height: 60px; 
+    width: 400px;
+    font-size: 24px;
+    margin-bottom: 10px;
+    background-color: red;
+    border: 3px solid transparent;
+    color: white;
+    
+}
+.learners button:hover{
+    border: 3px solid black;
+}
+.teachers button:hover{
+    border: 3px solid black;
+}
+.parents button:hover{
+    border: 3px solid black;
+}
+
+/*------------------------------------------------MEDIA QUERIES-------------------*/
+
+@media (max-width: 991px) {
+   .toggle{
+        display: inline-block;
+        cursor: pointer;
+        font-size: 0;
+        width: 40px;
+        height: 35px;
+        background-color: #ff5353;
+        position: relative;
+        border-radius: 3px;
+        border: 2px solid #dd4c76;
+    }
+    
+}
+@media only screen and (max-width:991px){
+    .taglinecontainer{
+        width: 991px;
+        font-size: 20px;
+        background-color: #dd4c76;
+    }
+    
+}    
